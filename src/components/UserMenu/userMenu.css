@@ -1,0 +1,34 @@
+/* .nav__wrap {
+  display: flex;
+} */
+
+/* .nav__div {
+  display: flex;
+  flex-direction: row;
+} */
+
+.user__div {
+  display: block;
+  width: 100px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  color: #757575;
+  border: 1px solid #757575;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.active {
+  color: #ff6b0a;
+}
+
+.user__span {
+  display: block;
+  cursor: pointer;
+}
+
+.user__span:hover,
+.user__span:focus {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
